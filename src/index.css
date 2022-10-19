@@ -7,7 +7,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  text-align: center;
+
+}
+
+form {
+  width: 70%;
+  margin: 30px auto;
+
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+form input[type="button"] {
+  margin-right: 8px;
+}
+
+.table {
+  width: 80%;
+  margin: auto;
+  overflow-y: auto;
+
 }
